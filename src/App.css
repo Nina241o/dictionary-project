@@ -1,0 +1,16 @@
+.App {
+  background-color: #282c34;
+  text-align: center;
+  color: #B9B0A9;
+}
+
+.App-logo {
+  height: 50%;
+
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center; 
+}
+
