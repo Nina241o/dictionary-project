@@ -1,9 +1,15 @@
 .Dictionary .searchForm {
   color: #1b1b10;
-  background-color: #B3AAA3;
-  opacity: 0.5;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #282c34;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
   font-size: 24px;
   text-align: center;
   margin: 40px;
+}
+
+.Dictionary .input {
+  background-color: #bfb7ae;
+  opacity: 0.8;
+  text-align: center;
 }
