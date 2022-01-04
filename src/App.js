@@ -13,7 +13,25 @@ export default function App() {
           <br />
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Florina Seipp</footer>
+        <footer className="App-footer">
+          <a
+            href="https://github.com/Nina241o/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+            className="links"
+          >
+            Open-source code on Github
+          </a>{" "}
+          by Florina Seipp hosted on{" "}
+          <a
+            href="https://agitated-cori-1f815e.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            className="links"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
