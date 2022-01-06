@@ -14,7 +14,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    
+
     // documentation: https://dictionaryapi.dev
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
@@ -26,14 +26,35 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+      <div className="Title">
+        <div>Hello!</div>
+        <div>
+          We'll find what you are looking for <i className="fas fa-search"></i>
+        </div>
+      </div>
       <form className="searchForm" onSubmit={search}>
         <input
           type="search"
           autoFocus={true}
+          placeholder="Type here to make it happen"
           onChange={handleKeywordChange}
           className="input"
         />
       </form>
+      <div className="hint">suggested words:</div>
+      <div className="hintOne">
+        etymology, bibliophile, neologism, linguistic,
+      </div>
+      <div className="hintTwo">
+        hirola, lyrebird, pangolin, saola, solenodon,
+      </div>
+      <div className="hintThree">
+        goobledygook, frivolous, ludicrous, asinine, ridiculous, farcical,
+      </div>
+      <div className="hintEnd">
+        or whatever you had on your mind when you stepped in...
+      </div>
+      <br />
       <Results results={results} />
     </div>
   );

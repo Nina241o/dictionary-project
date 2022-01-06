@@ -1,0 +1,9 @@
+.Results {
+  border: 1px solid silver; 
+}
+
+.Results h2 {
+  margin: 30px;
+  font-size: 44px;
+  font-weight: 700;
+}

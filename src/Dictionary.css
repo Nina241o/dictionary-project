@@ -1,15 +1,46 @@
+.Dictionary .Title {
+  font-size: 30px;
+}
+
 .Dictionary .searchForm {
   color: #1b1b10;
   background-color: #282c34;
   font-family: "Source Serif Pro", serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
-  margin: 40px;
+  margin: 20px 0 15px;
 }
 
 .Dictionary .input {
-  background-color: #bfb7ae;
+  background-color: #e0e0e0;
   opacity: 0.8;
+  padding: 8px;
+  border: 5px dotted #282c34;
   text-align: center;
+  width: 74%;
 }
+
+.Dictionary .hint {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.Dictionary .hintOne {
+  font-size: 15px;
+}
+
+.Dictionary .hintTwo {
+  font-size: 12px; 
+}
+
+.Dictionary .hintThree {
+  font-size: 10px;
+  margin-bottom:0cm 2px;
+}
+
+.Dictionary .hintEnd {
+  font-size: 18px;
+  margin: 20px 0;
+}
+

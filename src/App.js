@@ -1,4 +1,5 @@
 import Logo from "./img/dictionary.jpg";
+import Typewriter from "./img/typewriter.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -8,10 +9,11 @@ export default function App() {
       <header className="App-header">
         <img src={Logo} alt="logo" className="AppLogo" />
       </header>
-      <div className="container">
+      <div className="container-fluid">
         <main>
           <br />
           <Dictionary />
+          <img src={Typewriter} alt="typewriter" className="Typewriter img-fluid" />
         </main>
         <footer className="App-footer">
           <a

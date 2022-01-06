@@ -17,6 +17,11 @@
   padding: 0 auto;
 }
 
+.App .Typewriter {
+  display: block;
+  margin: 0 auto;
+}
+
 .App-footer {
   margin: 70px 0;
   font-size: 13px;

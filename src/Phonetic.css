@@ -1,0 +1,23 @@
+.Phonetic {
+  margin: 30px;
+  font-size: 22px;
+}
+
+.Phonetic a {
+  color: silver;
+}
+
+.Phonetic a:hover {
+  color: silver;
+}
+
+.Phonetic .fas {
+  font-size: 30px;
+}
+
+.Phonetic .Text {
+  color: silver;
+  opacity: 0.9;
+  font-weight: 600;
+  margin-left: 10px;
+}

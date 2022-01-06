@@ -1,15 +1,15 @@
 import React from "react";
-import gramophone from "./img/gramophone.png";
+
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
+  console.log(props.phonetic);
   return (
-    <div className="Phonetic mt-4">
-      <h4>
-        <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-          listen here
-        </a>{" "}
-        ( {props.phonetic.text} )
-      </h4>
+    <div className="Phonetic">
+      <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
+        <i className="fas fa-microphone-alt"></i>
+      </a>{" "}
+      <span className="Text"> /{props.phonetic.text}/</span>
     </div>
   );
 }
