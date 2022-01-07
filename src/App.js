@@ -1,5 +1,5 @@
 import Logo from "./img/dictionary.jpg";
-import Typewriter from "./img/typewriter.jpg";
+import Book from "./img/book.jpg";
 import LibraryLeft from "./img/libraryOne.jpg";
 import LibraryRight from "./img/libraryTwo.jpg";
 import "./App.css";
@@ -22,14 +22,12 @@ export default function App() {
             />
           </div>
           <div className="col">
-            <main>
-              <Dictionary />
+             <Dictionary />
               <img
-                src={Typewriter}
-                alt="typewriter"
-                className="Typewriter img-fluid"
+                src={Book}
+                alt="book"
+                className="Book img-fluid"
               />
-            </main>
           </div>
           <div className="col">
             <img

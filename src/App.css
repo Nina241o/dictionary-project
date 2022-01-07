@@ -24,10 +24,9 @@
   border-radius: 4px 0 0 4px;
 }
 
-.App .Typewriter {
+.App .Book {
   display: block;
   margin: 0 auto;
-  padding-top: 0;
   border-radius: 0 0 4px 4px;
 }
 

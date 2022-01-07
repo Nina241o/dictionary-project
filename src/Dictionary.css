@@ -27,5 +27,11 @@
 }
 
 .Dictionary .hint {
-  font-size: 16px;
+  font-size: 15px;
+  margin: 0 40px 20px;
+}
+
+.Dictionary .hintEnd {
+  font-size: 15px;
+  margin: 0 40px 40px;
 }

@@ -18,7 +18,6 @@ export default function Dictionary() {
     setPhotos(response.data.photos);
   }
 
-
   function search(event) {
     event.preventDefault();
 
@@ -26,15 +25,14 @@ export default function Dictionary() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
-
     let pexelsApiKey =
       "563492ad6f91700001000001f4a75cbfd1c04dcb9477c1f29ede6528";
-    let pexelsApiUrl =
-      `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     axios
-    .get(pexelsApiUrl, {
-      headers: { Authorization: `Bearer ${pexelsApiKey}`},
-    }).then(handlePexelsResponse);
+      .get(pexelsApiUrl, {
+        headers: { Authorization: `Bearer ${pexelsApiKey}` },
+      })
+      .then(handlePexelsResponse);
   }
 
   function handleKeywordChange(event) {
@@ -63,8 +61,9 @@ export default function Dictionary() {
       <div className="hint">
         How about etymology, neologism, bibliophile, linguistic or philology?
       </div>
-      <div className="hint">Well... yes... or you could just have a look around</div>
-      <br />
+      <div className="hintEnd">
+        Well... yes... or you could just have a look around
+      </div>
       <Results results={results} />
       <Photos photos={photos} />
     </div>
