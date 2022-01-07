@@ -6,7 +6,7 @@
 .Dictionary .Title {
   font-size: 25px;
   font-weight: 600;
-  margin: 15px 0 25px;
+  margin: 20px 0 30px;
 }
 
 .Dictionary .searchForm {
@@ -27,11 +27,11 @@
 }
 
 .Dictionary .hint {
-  font-size: 15px;
-  margin: 0 40px 20px;
+  font-size: 16px;
+  margin: 5px 30px 5px;
 }
 
 .Dictionary .hintEnd {
-  font-size: 15px;
-  margin: 0 40px 40px;
+  font-size: 16px;
+  margin: 5px 30px 40px;
 }

@@ -57,12 +57,15 @@ export default function Dictionary() {
           className="input"
         />
       </form>
-      <div className="hint">May we suggest some words?</div>
       <div className="hint">
-        How about etymology, neologism, bibliophile, linguistic or philology?
+        If we may, we would like to suggest some words:
+      </div>
+      <div className="hint">
+        etymology, neologism, bibliophile or philology
       </div>
       <div className="hintEnd">
-        Well... yes... or you could just have a look around
+        although we are quite willing to look for any other word as well, of
+        course
       </div>
       <Results results={results} />
       <Photos photos={photos} />
