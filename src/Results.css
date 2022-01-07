@@ -1,9 +1,18 @@
 .Results {
-  border: 1px solid silver; 
+  background: #e0e0e0;
+  color: #1b1b10;
+  margin-bottom: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
 }
 
 .Results h2 {
-  margin: 30px;
+  margin: 40px;
   font-size: 44px;
   font-weight: 700;
+}
+
+.Results section {
+  background-color: #dbd7ce;
+  
 }

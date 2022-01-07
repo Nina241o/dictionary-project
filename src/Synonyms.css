@@ -1,3 +1,7 @@
+.Synonyms {
+  padding: 0 10px 20px;
+}
+
 .Synonyms ul {
   list-style-type: none;
   margin: 0;
@@ -6,12 +10,6 @@
 
 .Synonyms li {
   list-style-type: none;
-  font-size: 16px;
-  opacity: 0.9;
-    
-}
-
-.Synonyms .ListTitle {
-  font-size: 15px;
-  text-decoration: underline;
+  margin: 0;
+  padding: 0;
 }

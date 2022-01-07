@@ -26,9 +26,10 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <div className="Title">
-        <div>Hello!</div>
-        <div>
+      <div className="Intro">
+        <div>Hello, do come in!</div>
+        <div>You've come to the right place</div>
+        <div className="Title">
           We'll find what you are looking for <i className="fas fa-search"></i>
         </div>
       </div>
@@ -36,24 +37,16 @@ export default function Dictionary() {
         <input
           type="search"
           autoFocus={true}
-          placeholder="Type here to make it happen"
+          placeholder="Enter your request here"
           onChange={handleKeywordChange}
           className="input"
         />
       </form>
-      <div className="hint">suggested words:</div>
-      <div className="hintOne">
-        etymology, bibliophile, neologism, linguistic,
+      <div className="hint">May we suggest some words?</div>
+      <div className="hint">
+        How about etymology, neologism, bibliophile, linguistic or philology?
       </div>
-      <div className="hintTwo">
-        hirola, lyrebird, pangolin, saola, solenodon,
-      </div>
-      <div className="hintThree">
-        goobledygook, frivolous, ludicrous, asinine, ridiculous, farcical,
-      </div>
-      <div className="hintEnd">
-        or whatever you had on your mind when you stepped in...
-      </div>
+      <div className="hint">Well... yes... or you could just have a look around</div>
       <br />
       <Results results={results} />
     </div>
